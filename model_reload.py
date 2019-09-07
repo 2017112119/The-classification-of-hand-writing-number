@@ -6,8 +6,6 @@ import cv2 as cv
 import numpy as np
 from tensorflow.examples.tutorials.mnist import input_data
 
-#load the data
-mnist = input_data.read_data_sets('MNIST_data',one_hot=True)
 
 #定义网络结构类
 class net_structure:
@@ -68,7 +66,8 @@ class net_structure:
 
 #主函数进行测试  , 之所以要使用 main 函数  ，是因为这样在别的文件中 调用这个文件中的方法时，不会执行main函数中的语句
 if __name__ == '__main__':
-
+    #load the data
+    mnist = input_data.read_data_sets('MNIST_data',one_hot=True)
     #创建实例
     net = net_structure()
 
