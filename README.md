@@ -16,4 +16,6 @@ Step 2:Then you should run the train.py.
 
 Step 3:you can run the GUI.py to start the system of writing_number-classification.
 
-ps:之后还会添加一下图像分割的代码，让系统更加完善。如果您有需要欢迎发送邮件到：wang_jin_gang123@sina.com
+ps:之后还会添加一下图像分割的代码，让系统更加完善。如果您有需要欢迎发送邮件到：wang_jin_gang123@sina.com.原本是想把模型也上传上来的，但是有点大上传不了。
+ps1:由于数据集为MNIST数据，这是外文的数字，所以和我们平时手写数字略有不同，所以有些数字识别效果不太好，（也是很无奈）但是大多数还是准确率很高的，我们通过测试发现我们的模型在测试集的准确率高达99.1%.
+
