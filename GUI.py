@@ -11,15 +11,18 @@ filename = None
 #网络结构与模型加载
 net = net_structure()
 
+#画图方法
 def paint(event):
     canv.create_rectangle(event.x,event.y,event.x+5,event.y+5,fill="black")
 
+#画板清空方法
 def clear_all():
 
     canv.create_rectangle(0,0,200,200,fill='white')
     v.set(" ")
     label1.update()
 
+#识别方法
 def recognition():
     img = ImageGrab.grab((window.winfo_x()+840,window.winfo_y()+33,window.winfo_x()+824+204,window.winfo_y()+233))
     img.save('1.png')
@@ -65,7 +68,7 @@ size = '%dx%d+%d+%d' % (1024, 618, (screenwidth - 1024)/2, (screenheight - 618)/
 window.resizable(False,False)#大小不可变
 window.config(bg='AliceBlue')
 window.geometry(size)
-
+window.iconbitmap("图标.ico")
 v = tk.StringVar()
 
 #画布设置
