@@ -11,7 +11,9 @@ PIL --6.1.0
 tkinter 
 
 Step 1:you should install the package that I have listed.
+
 Step 2:Then you should run the train.py.
+
 Step 3:you can run the GUI.py to start the system of writing_number-classification.
 
 ps:之后还会添加一下图像分割的代码，让系统更加完善。如果您有需要欢迎发送邮件到：wang_jin_gang123@sina.com
